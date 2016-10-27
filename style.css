@@ -1,0 +1,91 @@
+body {
+	margin: 0px;
+}
+.container {
+	width:100%;
+	text-align: center;
+	margin-top: 50px;
+}
+/* Menu Text*/
+.navul {
+	font-size: 30px;
+	width: 1500px;
+	margin: 0 auto;
+	list-style-type: none;
+}
+.navul > li {
+	float: left;
+}
+.navul > li:not(:last-child) {
+	margin-right: 400px;
+
+}
+.navul > li > a {
+	text-decoration: none;
+	color: black;
+
+}
+.menu {
+	display: inline-block;
+	background-color: #ccc0b9;
+	width: 100%;
+}
+.navli:hover {
+	background-color: grey;
+}
+
+.searchhere[type=text] {
+	width: 200px;
+	height: 20px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    transition: margin 0.4s ease-in-out;
+    margin-top: 20px;
+    margin-left: 720px;
+}
+
+input[type=text]:focus {
+    width: 300px;
+    margin-left: 650px;
+}
+
+.search1 {
+	margin: auto;
+	margin-left: 160px;
+	width: 30px;
+	height: 30px;
+}
+
+.searchbox {
+	margin: auto;
+	width: 50%;
+	border: 5px solid black;
+	margin-bottom: 50px;
+	margin-top: 20px;
+	height: auto;
+}
+
+.searchbox-row1 {
+	display: flex;
+}
+
+.searchbox-row2 {
+	display: flex;
+}
+
+.searchbox1 {
+	border: 1px solid black;
+	margin-left: 44px;
+	margin-right: auto;
+	margin-top: 30px;
+	width: 200px;
+	height: 200px;
+}
+
+.memetitle {
+	margin-left: 44px;
+	margin-right: auto;
+	width: 200px;
+	text-align: center;
+}
+
